@@ -10,7 +10,7 @@ EXIT
 
 :exists
 inifile.exe SVPM.ini [General] StardewValleyPath=%svpath%
-IF NOT EXIST ".\SMAPI\StardewModdingAPI" GOTO :complete
+IF NOT EXIST ".\SMAPI\StardewModdingAPI.exe" GOTO :complete
 echo.
 
 :smapiexist
@@ -27,7 +27,6 @@ IF /I "%option%" == "Y" GOTO :install
 IF /I "%option%" == "N" GOTO :notinstall
 echo Invalid Input!
 goto :smapiexist
-
 
 :install
 set smapi=".\SMAPI"

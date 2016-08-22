@@ -7,11 +7,11 @@ Portable Configuration for SVPM.
 
 ## Requirements
 - SVPM
-- (OPTIONAL) SMAPI (only need StardewModdingAPI.exe)
+- (OPTIONAL) SMAPI (only need StardewModdingAPI.exe & steam_appid.txt)
 
 ## Installation
 1. Copy all files into the SVPM folder (overwrite SVPM.ini)
-2. (OPTIONAL) Create an SMAPI folder and place StardewModdingAPI.exe in it
+2. (OPTIONAL) Create an SMAPI folder and place StardewModdingAPI.exe & steam_appid.txt in it
 
 ## Usage:
 1. Run Setup.bat
